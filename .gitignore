@@ -1,0 +1,12 @@
+# The plugin lives in its own repo at https://github.com/Khevin/design-expert.
+# We reference it via the GitHub source in .claude-plugin/marketplace.json,
+# so the local plugins/design-expert/ checkout is dev-only — not part of
+# this marketplace repo.
+plugins/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
